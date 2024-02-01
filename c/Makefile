@@ -1,6 +1,6 @@
 # We only build the files used by the hosting capacity C library, as we are not interested in supporting C at this stage.
-PROTO_PATH = ../proto/zepben/protobuf
-HC_PATH = hc/opendss
+PROTO_PATH = ../proto
+HC_PATH = zepben/protobuf/hc/opendss
 FILES = Diagnostics \
         EnergyMeter \
         OpenDssReport
