@@ -37,3 +37,10 @@ message OpenDssReport {
         KVBaseMismatch kvm = 13;
     }
 }
+
+/**
+ * Batch of OpenDSS reports.
+ */
+message OpenDssReportBatch {
+    repeated OpenDssReport reports = 1;
+}

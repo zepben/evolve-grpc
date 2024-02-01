@@ -4,7 +4,7 @@
 * None.
 
 ### New Features
-* None.
+* Added `OpenDssReportBatch`
 
 ### Enhancements
 * Added MeasurementZoneInfo to the Syf proto message.
