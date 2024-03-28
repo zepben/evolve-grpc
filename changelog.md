@@ -25,6 +25,7 @@
                      section and safeguard the power system.
   * `RelayInfo.recloseFast`: True if recloseDelays are associated with a fast Curve, False otherwise.
   * `RegulatingControl.ratedCurrent`: The rated current of associated CT in amps for a RegulatingControl.
+  * `LoadShape`: added reactive power values to LoadShape.
 
 ### Enhancements
 * Added MeasurementZoneInfo to the Syf proto message.
